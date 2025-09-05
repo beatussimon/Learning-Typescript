@@ -1,5 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let quantity = 100;
-console.log(quantity);
+function getCustomer(id) {
+    return id == 0 ? null : { birthdate: new Date() };
+}
+let customer = getCustomer(1);
+console.log(customer);
+console.log(customer?.birthdate.getFullYear());
 //# sourceMappingURL=index.js.map
