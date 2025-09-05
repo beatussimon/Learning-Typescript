@@ -1,7 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let employee = { name: "bea", salary: 1200, retire: (date) => {
-        console.log(date);
-    } };
-console.log(employee);
+let quantity = 100;
+console.log(quantity);
 //# sourceMappingURL=index.js.map

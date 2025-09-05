@@ -43,13 +43,20 @@
 
 
 //Narrowing the weight 
-function myFunct(weight: string | number){
-    if(typeof(weight) == "number"){
-        return weight*2
-    }
-    else{
-        return weight
-    }
-}
-myFunct(12)
-myFunct("age")
+// function myFunct(weight: string | number){
+//     if(typeof(weight) == "number"){
+//         return weight*2
+//     }
+//     else{
+//         return weight
+//     }
+// }
+// myFunct(12)
+// myFunct("age")
+
+
+
+type Quantity =50 |100
+
+let quantity: Quantity =100
+console.log(quantity)
